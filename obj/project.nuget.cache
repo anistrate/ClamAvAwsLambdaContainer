@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "lANWip1WsToEnziqjlz1j0DskbBgERUUXVMttFr5uDXceuXekxcivci2cWyZ41Rzou3ECN881vCqIZ2ZRuKycw==",
+  "success": true,
+  "projectFilePath": "D:\\Things to backup monthly\\Github\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ist_a\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\amazon.lambda.s3events\\2.0.1\\amazon.lambda.s3events.2.0.1.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\awssdk.core\\3.7.11.10\\awssdk.core.3.7.11.10.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\awssdk.s3\\3.7.9.10\\awssdk.s3.3.7.9.10.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\nclam\\7.0.0\\nclam.7.0.0.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\ist_a\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

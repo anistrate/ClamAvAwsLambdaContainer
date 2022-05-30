@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Things to backup monthly\\Github\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer.csproj": {}
+  },
+  "projects": {
+    "D:\\Things to backup monthly\\Github\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Things to backup monthly\\Github\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer.csproj",
+        "projectName": "ClamAvAwsLambdaContainer",
+        "projectPath": "D:\\Things to backup monthly\\Github\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer.csproj",
+        "packagesPath": "C:\\Users\\ist_a\\.nuget\\packages\\",
+        "outputPath": "D:\\Things to backup monthly\\Github\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\ClamAvAwsLambdaContainer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ist_a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.9.10, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.S3Events": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "nClam": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
