@@ -1,4 +1,4 @@
-# ClamAvAwsLambdaContainer
+# ClamAv Aws Lambda Container
 An AWS Lambda project which scans files uploaded to an S3 bucket, using the free Clam antivirus as a Lambda container.
 
 ## Technologies
