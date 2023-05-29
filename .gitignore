@@ -1,0 +1,6 @@
+
+*.cache
+*.editorconfig
+*.cache
+*.editorconfig
+obj/Debug/net6.0/ClamAvAwsLambdaContainer.GeneratedMSBuildEditorConfig.editorconfig

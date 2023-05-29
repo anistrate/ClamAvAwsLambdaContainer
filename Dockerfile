@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/dotnet:5.0 AS base
+FROM public.ecr.aws/lambda/dotnet:6 AS base
 EXPOSE 3310
 
 #have your linux up to date
@@ -25,7 +25,7 @@ RUN sed -i '/\#Example/d' /etc/freshclam.conf
 RUN freshclam
 
 #building the project in .Net
-FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim as build
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine as build
 
 WORKDIR /src
 
@@ -40,6 +40,7 @@ WORKDIR /var/task
 COPY --from=build /app/publish .
 
 #hack to inject a bit of code which starts clamd before lambda invocation; don't do this at home
-RUN sed -i '/USER_LAMBDA_BINARIES_DIR=/a  /usr/sbin/clamd' /lambda-entrypoint.sh
+#Commented this line as it doesn't seem to work anymore
+#RUN sed -i '/USER_LAMBDA_BINARIES_DIR=/a  /usr/sbin/clamd' /lambda-entrypoint.sh
 
 CMD ["ClamAvAwsLambdaContainer::ClamAvAwsLambdaContainer.Function::FunctionHandler"]
